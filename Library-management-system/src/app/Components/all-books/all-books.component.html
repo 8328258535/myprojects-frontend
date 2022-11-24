@@ -1,0 +1,26 @@
+
+
+
+<ul class="list-group">
+    <li *ngFor = "let b of books;index as i" class="list-group-items">
+        <span>
+           Book name: {{b.bookname}}
+        </span>
+        <span>
+           Book genere: {{b.bookgenere}}
+        </span>
+        <span>
+            Book author : {{b.author}}
+        </span>
+        <span>
+           Book price : {{b.price}}
+        </span>
+        <br>
+        <button type = "button"(click) ="deleteRow(b,i)" style="margin-left: 1450px;color: red;background-color: red;"
+        class = "btn-close" aria-label="close"></button>
+    
+    </li>
+   
+  </ul>
+  <button type = "button" style="margin-left: 20px; margin-top: 10px"
+  (click) = "sort()" class = "btn btn-secondary">sort based on price</button>

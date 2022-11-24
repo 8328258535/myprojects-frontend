@@ -1,0 +1,48 @@
+<h2 style="text-align: center;background-color: blueviolet;">{{title}}</h2>
+<div class="input-group mb-3">
+    <span class="input-group-text" id="basic-addon1">Book Name</span>
+    <input [(ngModel)] = book.bookname
+     type="text" class="form-control" placeholder="Book Name" 
+    aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+  </div>
+  <br>
+  <div class="input-group mb-3">
+    <span class="input-group-text" id="basic-addon1">Book Genre</span>
+    <input [(ngModel)]= book.bookgenere
+     type="text" class="form-control" placeholder="Book Genre" 
+    aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+  </div>
+  <br>
+  <div class="input-group mb-3">
+    <span class="input-group-text" id="basic-addon1">Author Name</span>
+    <input [(ngModel)] = book.author
+     type="text" class="form-control" placeholder="Author Name" 
+    aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+  </div>
+  <br>
+  <div class="input-group mb-3">
+    <span class="input-group-text" id="basic-addon1">Book price</span>
+    <input [(ngModel)] = book.price
+     type="number" class="form-control" placeholder="Book price" 
+    aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+  </div>
+  <br>
+  <label style="padding-left: 10px;background-color: rgb(56, 214, 219);">
+    Availability</label>
+  <div class="form-check">
+    <input [(ngModel)] = book.availability
+    class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+    <label class="form-check-label" for="flexRadioDefault1">
+      available
+    </label>
+  </div>
+  <div class="form-check">
+    <input [(ngModel)]= book.availability
+    class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+    <label class="form-check-label" for="flexRadioDefault2">
+      not available
+    </label>
+  </div>
+  <br>
+  <button (click)="save()"  style="text-align: center;" 
+  type="button" class="btn btn-success">Submit</button>

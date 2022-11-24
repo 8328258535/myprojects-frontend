@@ -1,0 +1,21 @@
+
+<ul class="list-group">
+    <li *ngFor = "let s of students;index as i" class="list-group-items">
+        <span>
+            {{s.firstname}}
+        </span>
+        <span>
+            {{s.lastname}}
+        </span>
+        <span>
+            class : {{s.class}}
+        </span>
+        <br>
+        <button type = "button"(click) ="deleteRow(s,i)" style="margin-left: 1450px;color: red;background-color: red;"
+        class = "btn-close" aria-label="close"></button>
+    
+    </li>
+   
+  </ul>
+  <button type = "button" style="margin-left: 20px; margin-top: 10px"
+  (click) = "sort()" class = "btn btn-secondary">sort based on class</button>

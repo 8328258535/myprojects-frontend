@@ -1,0 +1,62 @@
+{
+  "books": [
+    {
+      "bookname": "java",
+      "bookgenere": "coding",
+      "author": "james",
+      "price": 500,
+      "availability": "available",
+      "id": 1
+    },
+    {
+      "bookname": "sql",
+      "bookgenere": "quiries",
+      "author": "gupta",
+      "price": 200,
+      "id": 2
+    },
+    {
+      "bookname": "javascript",
+      "bookgenere": "coding",
+      "author": "Brendan",
+      "price": 600,
+      "id": 3
+    },
+    {
+      "bookname": "Civil objectives",
+      "bookgenere": "derivations",
+      "author": "Khurami",
+      "price": 700,
+      "id": 4
+    },
+    {
+      "bookname": "Mathamatics",
+      "bookgenere": "problems",
+      "author": "sanjivan",
+      "price": 350,
+      "id": 5
+    },
+    {
+      "bookname": "science",
+      "bookgenere": "scientafic",
+      "author": "Royal",
+      "price": 150,
+      "id": 6
+    },
+    {
+      "bookname": "java",
+      "bookgenere": "coding",
+      "author": "james",
+      "price": 300,
+      "id": 7
+    },
+    {
+      "bookname": "java",
+      "bookgenere": "coding",
+      "author": "james",
+      "price": 70,
+      "availability": "",
+      "id": 8
+    }
+  ]
+}

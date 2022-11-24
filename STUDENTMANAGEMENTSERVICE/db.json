@@ -1,0 +1,39 @@
+{
+  "students": [
+    {
+      "firstname": "tajdar",
+      "lastname": "Ahamed",
+      "gender": "Male",
+      "id": 1
+    },
+    {
+      "firstname": "Nishant",
+      "lastname": "Gupta",
+      "class": 10,
+      "email": "gupta@gmail.com",
+      "id": 2
+    },
+    {
+      "firstname": "Mohammed",
+      "lastname": "Inamulla",
+      "class": 12,
+      "email": "inam@gmail.com",
+      "id": 3
+    },
+    {
+      "firstname": "tajdar",
+      "lastname": "ahmed",
+      "class": 10,
+      "email": "taj@gmail.com",
+      "id": 4
+    },
+    {
+      "firstname": "ahmed",
+      "lastname": "taj",
+      "class": 5,
+      "email": "ahmed123@gmail.com",
+      "gender": "Male",
+      "id": 5
+    }
+  ]
+}
